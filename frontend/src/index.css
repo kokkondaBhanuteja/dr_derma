@@ -1,0 +1,17 @@
+/* index.css - Entry point for styling */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Import App.css which contains all the custom styling */
+/* Note: This import is handled by webpack in a Create React App project */
