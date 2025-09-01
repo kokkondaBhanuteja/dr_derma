@@ -1,0 +1,78 @@
+# === PYTHON / FLASK ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.venv.bak/
+pip-wheel-metadata/
+
+# Flask instance folder
+instance/
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Mypy, Pyre, pylint
+.mypy_cache/
+.pyre/
+pylint-report.txt
+pylint-output.txt
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# SQLite (if used)
+*.sqlite3
+*.sqlite3-journal
+
+# Gunicorn log files
+gunicorn.log
+
+# === REACT ===
+node_modules/
+bower_components/
+
+# Build output
+/build/
+dist/
+
+# NPM/Yarn logs and caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.yarn-cache/
+.yarn/
+
+# === ENV FILES ===
+.env.* 
+.env   
+
+# === OS / IDE FILES ===
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+Thumbs.db
+ehthumbs.db
+.idea/
+*.iml
